@@ -84,9 +84,9 @@ font-weight: 500;
     width: 100%;
     background-color: yellow;
     height: 27%;
-    background-image: url(pic1.avif);
+    background-image: url(pic.jpg);
     background-size: cover;
-    background-position: 0 40%;
+    background-position: 0 60%;
 }
 
 @media (max-width:600px) {
@@ -161,11 +161,11 @@ font-size: 12px;
 font-weight: 500;
 } 
 .end{
-    width: 100%;
+   width: 100%;
     background-color: yellow;
     height: 34%;
-    background-image: url(pic1.avif);
+    background-image: url("pic.jpg");
     background-size: cover;
-    background-position: 0 40%;
+    background-position: center;
 }
 }
