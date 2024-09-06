@@ -163,7 +163,7 @@ font-weight: 500;
 .end{
    width: 100%;
     background-color: yellow;
-    height: 34%;
+    height: calc(100% - 75px);
     background-image: url("pic.jpg");
     background-size: cover;
     background-position: center;
