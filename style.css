@@ -1,0 +1,171 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    font-family: "Anek Devanagari";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+    
+}
+.nav h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav i{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 6px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.center{
+    width: 100%;
+    padding: 20px 90px;
+}
+.center h1{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height:4vw;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.mid p{
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 20px 90px;
+}
+.right{
+    width: 20%;
+}
+.elem{
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 2px solid rgb(102, 100, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elem a{
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+    padding:7px 0;
+}
+.elem i{
+opacity:   0;
+font-size: 20px;
+font-weight: 500;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.end{
+    width: 100%;
+    background-color: yellow;
+    height: 27%;
+    background-image: url(img/pic1.avif);
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+@media (max-width:600px) {
+    .nav{
+        width: 100%;
+        height:70px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        padding: 0 30px;
+        
+    }
+    .nav h4{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    .nav i{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+        font-weight: 500;
+        border-radius: 30px;
+    }
+    .center{
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 10px 10px;
+}
+.center h1{
+    font-size: 7vw;
+    font-weight: 500;
+    line-height:7vw;
+}
+
+.mid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mid p{
+    font-size: 2.4vw;
+    font-weight: 600;
+    padding: 5px 1px 10px 10px;
+}
+.right{
+    width: 100%;
+}
+.elem{
+    /* background-color: aqua; */
+    width: 100%;
+    /* padding: 5px 15px; */
+    border-top: 2px solid rgb(102, 100, 100);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: aqua; */
+
+}
+.elem a{
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+    padding:3px 0;
+    font-size: 2.5vw;
+}
+.elem i{
+    opacity: 1;
+font-size: 12px;
+font-weight: 500;
+} 
+.end{
+    width: 100%;
+    background-color: yellow;
+    height: 34%;
+    background-image: url(img/pic1.avif);
+    background-size: cover;
+    background-position: 0 40%;
+}
+}
